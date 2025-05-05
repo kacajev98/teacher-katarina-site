@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teacher Katarina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h2 {
+      color: #4a90e2;
+    }
+    .contact {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #357abd;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Teacher Katarina</h1>
+    <p>Friendly and professional English lessons tailored to you</p>
+  </header>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! I'm Katarina, a certified English teacher with over 10 years of experience helping students from around the world improve their English. Whether you're a beginner or preparing for a specific goal, I'm here to help you succeed with flexible and engaging one-on-one lessons.</p>
+    </section>
+
+    <section>
+      <h2>Availability</h2>
+      <p>My schedule is flexible! Please use the form below to request your preferred time, and I’ll confirm availability via email or WhatsApp.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Book a Lesson</h2>
+      <form action="https://formspree.io/f/mwkgbvqp" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" value="+38166246521" required />
+
+        <label for="message">Preferred Date/Time:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Contact: katarina.jevtic2@gmail.com | WhatsApp: +38166246521</p>
+  </footer>
+</body>
+</html>
